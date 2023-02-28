@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <!-- <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+
+    <!-- <style> -->
+      
+      <style>
+      
+        .display-5{
+          animation: home 2s forwards;
+          color: red;
+        }
+
+        @keyframes home {
+        0%{
+          transform: translateX(420px);
+          opacity: 0;
+        }
+        100%{
+          transform: translateX(10px);
+          opacity: 1;
+        }
+      }
+      .lead{
+        animation: description 1.3s forwards; 
+      }
+      @keyframes description {
+      0%{
+        transform: translateY(420px);
+        opacity: 0;
+      }
+      100%{
+        transform: translateY(10px);
+        opacity: 1;
+      }
+        
+      
+      }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+        </style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="NavbarLogo.png" alt="" srcset="" height="70">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destination.html">DESTINATIONS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACTS</a>
+          </li>
+        <!-- <li class="nav-item dropdown"> -->
+          <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+            <!-- Category -->
+        
+          <!-- </a> -->
+          <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+            <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
+            <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          <!-- </ul> -->
+        <!-- </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <marquee scrollamount="15">
+    <img src="cropimg/img4.png"  alt="" srcset="" height="" width=""></marquee>
+   
+    <br><br><br> 
+
+    <center><h1><p style="color:dimgrey"> ABOUT US</p></h1></center>
+    <marquee behavior="scroll" direction="up" scrollamount="3"><center><h2>Its' more fun in the Philippines</h2></center></marquee>
+    
+    <br><br>
+    <div class="row g-pad-bottom">
+          <div class="col-md-6 ">
+           
+              <h2><p style="color:red">Who are we</p></h2>
+
+              <p>
+                  Tara Liwaliw Travel is an Adventure Tour Operator in the Philippines with more than 11 years of experience, dedicated to bringing you innovative and active travel experiences. We offer a trip for every adventurous spirit— with high quality standards, customized, with a strong focus on sustainable travel.
+
+                  We support local communities, environments and wildlife. We truly live and breathe sustainable living that's why all our trips include immersive experiences with locals which in turn supports the local economy, livelihood of people, crafts and the community.
+
+                  Tailor-Made Itineraries, you tell us your ideas about where you want to go and how you like to travel and we’ll simply piece it together using our expert knowledge and working with you every step of the way.
+              </p>
+             
+            
+          </div>
+
+          <div class="col-md-6 ">
+              <h2><p style="color:red"> Vision Statement </p></h2>
+
+              <p>
+                  It is our vision that in 2023 we want to be a leading example of a tour operator demonstrating
+                  sustainable tourism in Cusco. We want to grow by offering more and a wider range of unique tours,
+                  develop from travel agency to tour operator and expand our visibility on the web.
+              </p>
+
+
+              <h2><p style="color:red"> Mission Statement</p></h2>
+
+              <p>
+                  Provide a unique travel experience for everybody in a sustainable, honest and transparent way.
+              </p>
+              
+            </div>
+          </div><br><br>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button"  class="btn btn-primary btn-lg px-4 me-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</button>
+          </div>
+        </div>
+  <br>
+              
+</section>
+    
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">©2023 Tara Liwaliw Travel || Oswald Jayson Hipolito || Philippines</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+  </footer>
+</div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fill Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body mx-3">
+
+        <div class="md-form mb-3">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="fullname" id="fullname" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="fullname">Fullname</label>
+        </div>
+
+        <!-- <div class="md-form mb-3"> -->
+          <!-- <form action="/action_page.php"> -->
+            <!-- <label for="quantity">Age</label> -->
+            <!-- <input type="number" id="quantity" name="quantity" min="2" max="99"> -->
+          <!-- </form> -->
+        <!-- </div> -->
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="" id="Age" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="age">Age</label>
+        </div>
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="" id="number" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="number">Mobile Number</label>
+        </div>
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="address" id="address" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="address">Address</label>
+        </div>
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="destination" id="destination" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="destination">Destination</label>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Book Now</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <!-- <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script> -->
+</body>
+</html>

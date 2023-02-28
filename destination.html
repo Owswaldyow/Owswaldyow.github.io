@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    
+    <!-- <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+
+    <!-- <style> -->
+      
+      <style>
+      
+        .display-5{
+          animation: home 2s forwards;
+          color: red;
+        }
+
+        @keyframes home {
+        0%{
+          transform: translateX(420px);
+          opacity: 0;
+        }
+        100%{
+          transform: translateX(10px);
+          opacity: 1;
+        }
+      }
+      .lead{
+        animation: description 1.3s forwards; 
+      }
+      @keyframes description {
+      0%{
+        transform: translateY(420px);
+        opacity: 0;
+      }
+      100%{
+        transform: translateY(10px);
+        opacity: 1;
+      }
+
+    }
+      
+    .container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blink {
+                animation: blinker 1.5s linear infinite;
+                color: rgb(80, 80, 80);
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                80% {
+                    opacity: 1;
+                }
+            }
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img/img8.jpg');
+
+  /* Full height */
+  height: 80%; 
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+        </style>
+
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="NavbarLogo.png" alt="" srcset="" height="70">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT US</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="destination.html">DESTINATIONS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACTS</a>
+          </li>
+        <!-- <li class="nav-item dropdown"> -->
+          <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
+            <!-- Category -->
+        
+          <!-- </a> -->
+          <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+            <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
+            <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          <!-- </ul> -->
+        <!-- </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="parallax"></div>
+
+<div style="height:3000px;background-color:rgba(2, 0, 0, 0);font-size:16px">
+  <h1></h1>
+  <br><br>
+  <section>
+    <div class="container">
+        <div class="row g-pad-bottom">
+            <div class="col-md-6 ">
+
+
+                <h2><a Href="Video/Anawangin.html"> 1. Anawangin Cove, Zambales </a></h2>
+
+                <p>
+                    San Antonio, Zambales used to be a small quiet fishing village until the Internet discovered the beautiful Anawangin Cove.
+                    While it’s not the only Zambales tourist spot there is, Anawangin surely is the most popular (and most beautiful) attraction, at least for us. <br /> <br />
+                    If you’re someone who fancies white sand beach, quiet and relaxing ambiance, simple way of living, no Internet, just you and nature, then Anawangin will not disappoint you. This cove is not like any other. <br /> <br />
+                    <b>How to get there: </b><br />
+                    To get to Anawangin from Cubao, ride a Victory Liner bus going to Iba, Zambales and alight at San Antonio Public Market. <br />
+                    Alternatively, you may also travel by bus to Olongapo City, and then board another bus to San Antonio. Upon arrival at San Antonio, take a tricycle to Pundaquit and rent a boat to Anawangin beach.<br /> <br />
+                    Travel time: 4-5 hours
+                </p>
+
+            </div>
+
+
+
+            <div class="col-md-6">
+                <img src="assets/img/portfolio/thumb/Anawangin.jpg" alt="" width="522" height="400">
+                <img src="assets/img/portfolio/thumb/Anawangin2.jpg" alt="" width="260" height="200">
+                <img src="assets/img/portfolio/thumb/Anawangin3.jpg" alt="" width="260" height="200">
+            </div>
+        </div>
+    </div>
+<br><br>
+    <div class="container">
+        <div class="row g-pad-bottom">
+            <div class="col-md-6 ">
+
+
+                <h2><a href = "Video/DRT.html">2. D.R.T (Doña Remedios Trinidad)</a></h2>
+
+                <p>
+                    D.R.T (Doña Remedios Trinidad Bulacan) is the largest municipality in Bulacan, covering nearly one-third of the total land area. <br /> Located on the southern edge of the Sierra Madres Mountains, it contains three main conservation areas: Angat watershed forest reserve, Biaknabato National Park, and Doña Remedios–General Tinio Material Forest Reserve,327.3 km² isolated and disposable public land.
+                    <br /><br />
+                    <b>Why is this place called DRT? </b><br /> <br />
+                    On September 13, 1977, Philippine President Ferdinand Marcos issued Presidential Decree No. 1196 creating the municipality of Doña Remedios Trinidad. <br />  The municipality of Doña Remedios Trinidad was named in honor of Doña Remedios T. Romualdez, mother of then First Lady Imelda Romualdez Marcos, who was a Bulakeña from the town of Baliuag Bulacan.
+                    <br /> <br />The municipality covers seven barangays, originally part of Angat, Norzagaray, and San Miguel. These are Pulong Sampaloc and Camachile of Angat; Bayabas and Kabayunan of Norzagaray; Talbak, Camachin and Kalawakan of San Miguel.
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="assets/img/portfolio/thumb/Bulacan.jpg" alt="" width="522" height="400">
+                <img src="assets/img/portfolio/thumb/Bulacan2.jpg" alt="" width="260" height="200">
+                <img src="assets/img/portfolio/thumb/Bulacan3.jpg" alt="" width="260" height="200">
+            </div>
+        </div>
+    </div>
+<br><br>
+
+
+    <div class="container">
+        <div class="row g-pad-bottom">
+            <div class="col-md-6 ">
+
+
+                <h2><a href="Video/Tagaytay.html">3. Tagaytay</a> </h2>
+
+                <p>
+                    Tagaytay City is always on top of the list of weekend destinations for city dwellers. It's known for its stunning views, gastronomic food trips, and family-friendly activities.
+                    <br /> <br /> When it comes to a quick escape from Manila, Tagaytay City is an easy choice. Its proximity makes it a default destination for the work-weary weekend warriors from Manila and other parts of Cavite, as well as the neighboring provinces of Laguna and Batangas.
+                    <br /> <br /> Despite being just 2-3 hours away from the Philippines’ capital, Manila, Tagaytay has cooler weather. It has an average lowest temperature of 18.8 °C (65.84 °F) compared to other parts of the Philippines with an average lowest of 26.6 °C (79.9 °F).  This is why visitors keep coming back, happy to get their fill of the fresh and cool mountain air.
+                    <br /> <br /> Families with young kids and big groups looking to have a fun-filled stay are also in for a treat as there are multiple tourist attractions that kids will love. Tagaytay is also one of the popular day trip destinations in Manila.
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="assets/img/portfolio/thumb/Tagaytay2.jpg" alt="" width="522" height="400">
+                <img src="assets/img/portfolio/thumb/Tagaytay.jpg" alt="" width="260" height="200">
+                <img src="assets/img/portfolio/thumb/Tagaytay3.jpg" alt="" width="260" height="200">
+            </div>
+        </div>
+    </div>
+<br><br>
+
+    <div class="container">
+        <div class="row g-pad-bottom">
+            <div class="col-md-6 ">
+
+
+                <h2><a href="Video/MtUlap.html">4. Mt. Ulap</a> </h2>
+
+                <p>
+                    Mt. Ulap is a beautiful and scenic landscape that represents much of what the Cordillera is. It’s a climb  you could consider, especially that Pulag is now overly crowded. (Honestly, I wanted the authorities to implement a recovery period for Mt. Pulag to preserve the National Park). Nevertheless, Mt. Ulap is surprisingly a surreal view as well. With grassland summits, pine ridges, and an open view of the other Cordillera mountains, it’s a climb one must have to experience more of the Cordilleras.
+                    <br /> <br />
+
+                    <b>HOW TO GET THERE </b> <br />
+                    To Ampucao:
+
+                    From Baguio City, ride a jeepney going to Ampucao. The terminal is located near Center Mall (everyone knows where this mall is – I’m a Baguio local so I know). Fare is 50php.
+                    Tell the driver to drop you off Barangay Ampucao. Normally, they’d drop you on the waiting shed here with a sign “Mt. Ulap Registration this way”, but sometimes the driver could take you inside the registration area as well.
+                    Just follow the signs to the registration area (probably take you just 3minutes to get there).
+                    Register and pay your guide fee (400php per group) and environmental fee (100php ea).
+                    ****Note: You could opt to start your trek from here or from the exit point (inform your guide) by riding a jeepney to the exit point (20php – 20 min ride). It’s a much steeper climb from there going back to jump off point at Ampucao
+
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="assets/img/portfolio/thumb/Mtulap.jpg" alt="" width="522" height="400">
+                <img src="assets/img/portfolio/thumb/Mtulap2.jpg" alt="" width="260" height="200">
+                <img src="assets/img/portfolio/thumb/Mtulap3.jpg" alt="" width="260" height="200">
+            </div>
+        </div>
+    </div>
+<br><br>
+    <div class="container">
+        <div class="row g-pad-bottom">
+            <div class="col-md-6 ">
+
+
+                <h2><a href="Video/Batanes.html">5. Batanes </a></h2>
+
+                <p>
+                    Batanes’ refreshingly chill and peaceful vibe gives local and foreign travelers a different taste of island life. One that is simpler, laidback, quiet, but definitely revitalizing.
+                    <br /> <br />
+                    For a country that is known for its tropical islands, Batanes’ rock formations, quaint lighthouses, and wild horses that roam freely in vast pastureland make it a truly unique destination for many people.
+                    <br /> <br />
+                    If you’re planning a trip to this part of the Philippines, we offer you this ultimate guide on everything you need to know for the perfect getaway.
+                    <br /> <br />The best time to visit Batanes is during the dry or summer season. In the Philippines, the months of March, April, May, and June are considered the hottest months with minimal rainfall. These are also the best months to visit Batanes.
+                    <br /> <br />
+                    Fewer chances of rainfall mean fewer chances of delayed or canceled flights and you’ll be able to enjoy your trip better since Batanes tourist attractions are mostly outdoors.
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="assets/img/portfolio/thumb/Batanes.jpg" alt="" width="522" height="400">
+                <img src="assets/img/portfolio/thumb/Batanes2.jpg" alt="" width="260" height="200">
+                <img src="assets/img/portfolio/thumb/Batanes3.jpg" alt="" width="260" height="200"><br><br>
+                <br><br>
+            </div><br><br>
+            <!-- Button to wag mo kalimutan / start button -->
+            <br><br>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button"  class="btn btn-primary btn-lg px-4 me-md-2" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</button>
+            </div>
+            <!-- button end -->
+        </div>
+    </div>
+    
+</section>
+
+<br><br>
+
+
+  
+
+
+
+
+<!-- <section>
+  <div class="container">
+    <marquee scrollamount="15">
+    <img src="img/img6.jpg"  alt="" srcset="" height="" width=""></marquee>
+   
+    <br><br><br> 
+
+    <center><h1><p style="color:dimgrey"> ABOUT US</p></h1></center>
+    <marquee behavior="scroll" direction="up" scrollamount="1"><center><h2>Its' more fun in the Philippines</h2></center>></marquee>
+    
+    <br><br>
+    <div class="row g-pad-bottom">
+          <div class="col-md-6 ">
+           
+              <h2><p style="color:red">Who are we</p></h2>
+
+              <p>
+                  Tara Liwaliw Travel is an Adventure Tour Operator in the Philippines with more than 11 years of experience, dedicated to bringing you innovative and active travel experiences. We offer a trip for every adventurous spirit— with high quality standards, customized, with a strong focus on sustainable travel.
+
+                  We support local communities, environments and wildlife. We truly live and breathe sustainable living that's why all our trips include immersive experiences with locals which in turn supports the local economy, livelihood of people, crafts and the community.
+
+                  Tailor-Made Itineraries, you tell us your ideas about where you want to go and how you like to travel and we’ll simply piece it together using our expert knowledge and working with you every step of the way.
+              </p>
+             
+            
+          </div>
+
+          <div class="col-md-6 ">
+              <h2><p style="color:red"> Vision Statement </p></h2>
+
+              <p>
+                  It is our vision that in 2023 we want to be a leading example of a tour operator demonstrating
+                  sustainable tourism in Cusco. We want to grow by offering more and a wider range of unique tours,
+                  develop from travel agency to tour operator and expand our visibility on the web.
+              </p>
+
+
+              <h2><p style="color:red"> Mission Statement</p></h2>
+
+              <p>
+                  Provide a unique travel experience for everybody in a sustainable, honest and transparent way.
+              </p>
+              
+            </div>
+          </div> -->
+
+
+     
+
+   
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">©2023 Tara Liwaliw Travel || Oswald Jayson Hipolito || Philippines</p>
+    
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+      </footer>
+    </div>
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Fill Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body mx-3">
+
+        <div class="md-form mb-3">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="fullname" id="fullname" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="fullname">Fullname</label>
+        </div>
+
+        <!-- <div class="md-form mb-3"> -->
+          <!-- <form action="/action_page.php"> -->
+            <!-- <label for="quantity">Age</label> -->
+            <!-- <input type="number" id="quantity" name="quantity" min="2" max="99"> -->
+          <!-- </form> -->
+        <!-- </div> -->
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="" id="Age" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="age">Age</label>
+        </div>
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="" id="number" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="number">Mobile Number</label>
+        </div>
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="address" id="address" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="address">Address</label>
+        </div>
+
+        <div class="md-form mb-3">
+          <i class="fas fa-lock prefix grey-text"></i>
+          <input type="destination" id="destination" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="destination">Destination</label>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Book Now</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+    <!-- <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script> -->
+</body>
+</html>
